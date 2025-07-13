@@ -1,0 +1,86 @@
+import imagesData from "../imgImports";
+
+const OfficeData = [
+    {
+        id: 1,
+        img: imagesData.eka, 
+        nama: "Eka Pratama",
+        ig: "_eka.pratama",
+        link: "https://www.instagram.com/_eka.pratama?igsh=dnJyMHN1aW10djcx",
+        moto: "Stay focused and keep moving forward, even if the past is constantly brought up and negative judgments keep coming",
+    },
+    {
+        id: 2,
+        img: imagesData.adit, 
+        nama: "Adit",
+        ig: "aditpastikayana",
+        link: "https://www.instagram.com/aditpastikayana?igsh=ZXNtcHI3eTV3dHZ1&utm_source=qr",
+        moto: "Jika anda belum menyukai untuk belajar, belajarlah karena itu akan mengubah hidup anda",
+    },
+    {
+        id: 3,
+        img: imagesData.widyarini, 
+        nama: "Widyarini",
+        ig: "wiidyarini_",
+        link: "https://www.instagram.com/wiidyarini_?igsh=aWczZGV0YzV5MTFr&utm_source=qr",
+        moto: "every day is an opportunity to improve, even it is only by 1%. It's not about being invincible, it's about being unstoppable",
+    },
+    {
+        id: 4, 
+        img: imagesData.nia, 
+        nama: "Nia",
+        ig: "niiyawv",
+        link: "https://www.instagram.com/niiyawv?igsh=ZWQzcTc5aWlreG0%3D&utm_source=qr",
+        moto: "Hands down, this is the best day of my life. And quite possibly the last.",
+    },
+    {
+        id: 5,  
+        img: imagesData.sri, 
+        nama: "Sri Dewi",
+        ig: "sridewiiii_",
+        link: "https://www.instagram.com/sridewiiii_?igsh=ZXlvM2x0bnJ6azBy",
+        moto: "Bangkit terus sampai kamu melihat tujuan mu tercapai",
+    },
+    {
+        id: 6,  
+        img: imagesData.dhini, 
+        nama: "Dhini",
+        ig: "dhinimirayani",
+        link: "https://www.instagram.com/dhinimirayani?igsh=MWIwMHkwcXBmZHV3bw==",
+        moto: "from nothing to something",
+    },
+    {
+        id: 7,  
+        img: imagesData.oka, 
+        nama: "Oka",
+        ig: "okasetyawtii",
+        link: "https://www.instagram.com/okasetyawtii/",
+        moto: "achieve your dreams by your own way",
+    },
+    {
+        id: 8,  
+        img: imagesData.anggreni, 
+        nama: "Anggreni",
+        ig: "xo.anggrenii",
+        link: "https://www.instagram.com/xo.anggrenii",
+        moto: "Stay true to yourself",
+    },
+    {
+        id: 9,  
+        img: imagesData.rani, 
+        nama: "Rani",
+        ig: "sriindrani_",
+        link: "https://www.instagram.com/sriindrani_?/",
+        moto: "Keberhasilan tidak bisa dicapai dengan merugikan orang lain",
+    },
+    {
+        id: 10,  
+        img: imagesData.iluh, 
+        nama: "Iluh",
+        ig: "iluhgedong_",
+        link: "https://www.instagram.com/iluhgedong_?igsh=cTdndTM4MGFuMG40",
+        moto: "Don't let your fear decide your future",
+    },
+]
+
+export default OfficeData

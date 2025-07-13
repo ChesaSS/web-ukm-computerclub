@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 18px;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 6px;
+  background-clip: content-box;
+  background-color: rgba(128, 128, 128, 0.568);
+  -webkit-border-radius: 20px;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+* {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+/* grid center first child  */
+.grid-item:last-child:nth-child(3n - 1) {
+  grid-column-end: -2;
+}
+
+.grid-item:nth-last-child(2):nth-child(3n + 1) {
+  grid-column-end: 4;
+}
+
+.grid-item:last-child:nth-child(3n - 2) {
+  grid-column-end: 5;
+}
+
+/* grid center last child  */
+.grid-last-item:last-child:nth-child(2n) {
+  grid-column-end: -1;
+}
+
+.grid-last-item:last-child:nth-child(2n - 1) {
+  grid-column-end: 4;
+}
+
+@layer components {
+    /* untuk navbar link */
+    .NavbarLink {
+      @apply hover:text-primary ease-in-out duration-75 transition-all;
+    }
+}
